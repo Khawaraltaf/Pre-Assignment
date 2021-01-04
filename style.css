@@ -1,0 +1,189 @@
+/*------------------*/
+/*basic steup*/
+/*--------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'arial', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------------*/
+/* HEADER */
+/*-------------------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/keyboard.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1240px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+/*------------------------------*/
+/* REUSEABLE COMPUNENTS*/
+/*-------------------------------*/
+
+/*------HEADINGS-----*/
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h2 {
+    color: #e67e22;
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+}
+
+.h {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*------BUTTONS-----*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 50px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-gost:link,
+.btn-gost:visited {
+    border: 1px solid #e67e22;
+    margin-left: 30px;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-gost:hover,
+.btn-gost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 30px;
+    letter-spacing: 0.5px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 6px 0px;
+    color: #e67e22;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+/*---------------------------*/
+/* section 1 */
+/*---------------------------*/
+
+.seaction-features {
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.plan-box {
+    border: 1px solid;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.plan-box div {
+    padding: 20px;
+}
+
+.p {
+    margin-top: 15px;
+}
+
+.read {
+    margin-top: 40px;
+}
+
+.read1 {
+    margin-top: 30px;
+    
+}
+
+.read2 {
+    margin-top: 15px;
+}
